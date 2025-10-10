@@ -5,7 +5,7 @@ if status --is-interactive; and [ (tty) = "/dev/tty1" ]
 
     # Start DBus session if not running
     if not set -q DBUS_SESSION_BUS_ADDRESS
-        set -gx DBUS_SESSION_BUS_ADDRESS (dbus-daemon --session --fork --print-address)
+	dbus-launch --sh-syntax | sed 's/^/set -gx /; s/=/ /' | source
     end
 
     # Start PipeWire if not running
@@ -14,7 +14,7 @@ if status --is-interactive; and [ (tty) = "/dev/tty1" ]
     pgrep -x wireplumber >/dev/null; or wireplumber &
 
     # Launch Hyprland with DBus session
-    exec Hyprland
+    exec hyprland
 end
 
 
