@@ -23,6 +23,5 @@ input {
 		clickfinger_behavior = true
 		scroll_factor = 0.4
 	}
-
 }
 ```
