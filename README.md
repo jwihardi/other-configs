@@ -6,3 +6,19 @@
 
 ### Other modifications
 - Disable animations
+
+### Laptop Setting
+Add to ``/custom/general.conf``
+```bash
+input {
+	sensitivity = 0.15
+
+	touchpad {
+		natural_scroll = yes
+		disable_while_typing = true
+		clickfinger_behavior = true
+		scroll_factor = 0.4
+	}
+
+}
+```
