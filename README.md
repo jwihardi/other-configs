@@ -1,8 +1,10 @@
-### Keybinds to change
-- Move focus to ``SUPER + Vim motions (H, J, K, L)``
-- Delete lock (I use a built-in lock button)
+### Illogical Impulse keybind changes
+- Move focus with ``SUPER + Vim motions (H, J, K, L)``
+- Move windows with ``SUPER + SHIFT + Vim motions (H, J, K, L)``
+- Delete lock and suspend
 - Toggle Bar from ``SUPER + J`` to ``SUPER+ALT+J``
 - Toggle Virtual Keyboard from ``SUPER+K`` to ``SUPER+ALT+K``
+- 
 
 ### Other modifications
 - Disable animations
