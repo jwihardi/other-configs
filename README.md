@@ -1,3 +1,7 @@
+### Locations
+- **fish**, **kitty** in ``~/.config``
+- **tlp.conf** in ``/etc``
+
 ### Keybinds to change
 - Move focus to ``SUPER + Vim motions (H, J, K, L)``
 - Delete lock (I use a built-in lock button)
