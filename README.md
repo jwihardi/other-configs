@@ -3,3 +3,6 @@
 - Delete lock (I use a built-in lock button)
 - Toggle Bar from ``SUPER + J`` to ``SUPER+ALT+J``
 - Toggle Virtual Keyboard from ``SUPER+K`` to ``SUPER+ALT+K``
+
+### Other modifications
+- Disable animations
