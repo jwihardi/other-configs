@@ -7,6 +7,7 @@
 
 ### Other modifications
 - Hyprland: Disable animations, blurr, and shadows
+- Background clock disabled
 
 ### Laptop Setting
 Add to ``/custom/general.conf``
