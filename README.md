@@ -14,6 +14,8 @@
    	- ``CPU_MAX_PERF_ON_AC=100`` (never going to get close unless boost is enabled)
    	- ``CPU_MIN_PERF_ON_BAT=0``
    	- ``CPU_MAX_PERF_ON_BAT=29`` (~2.9 GHz)
+### SDDM Theme
+- [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme) with my wallpaper.
 
 ### Laptop Setting
 Add to ``/custom/general.conf``
