@@ -4,10 +4,7 @@
 - Delete lock and suspend
 - Toggle Bar from ``SUPER + J`` to ``SUPER+ALT+J``
 - Toggle Virtual Keyboard from ``SUPER+K`` to ``SUPER+ALT+K``
-
-### Other modifications
-- Hyprland: Disable animations, blurr, and shadows
-- Background clock disabled
+- Animations disabled
 
 ### Laptop Setting
 Add to ``/custom/general.conf``
