@@ -14,7 +14,9 @@ if status is-interactive # Commands to run in interactive sessions can go here
 
     alias reboot 'loginctl reboot'
     alias shutdown 'loginctl poweroff'
-    alias discord 'flatpak run com.discordapp.Discord'
+    alias discord 'flatpak run dev.vencord.Vesktop'
+    alias spotify 'flatpak run com.spotify.Client'
+    alias steam 'flatpak run com.valvesoftware.Steam'
     alias ff 'fastfetch'
     alias ls 'eza --icons'	
     alias clear "printf '\033[2J\033[3J\033[1;1H'"
